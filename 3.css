@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Croissant One', cursive; 
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+body{
+    background-color: #ffdf80;
+}
+nav>li,footer>li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav>li>a,footer>li>a{
+    color: #ffdf80;
+    text-decoration: none;
+}
+nav{
+    background: linear-gradient(90deg,red,blue) fixed ;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5em 0 5em 0;
+    border-radius: 20px;
+    padding: 20px
+}
+
+main{
+    display: flex;
+}
+.a,.b{
+    height: 80vh;
+    width: 50vw;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(187, 214, 238);
+    font-size: 5em;
+    display: grid;
+    place-items: center;
+}
+.a{
+    color: #3e0606;
+    background: url(./thali.jpg) ;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.b{
+    background: url(./burger.jpg) ;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+input[type=search]{
+    border: none;
+    height: 10vh;
+    width: 30vw;
+    font-size: 40px;
+    border-radius: 30px;
+    padding: 40px;
+}
+footer{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 7, 7);
+    text-align: center;
+    position: relative;
+    bottom: -30%;
+
+}
